@@ -79,7 +79,7 @@ export class MainComponent implements OnDestroy, OnInit, AfterViewInit {
   @ViewChild(PopupComponent)
   private popupComponent!: PopupComponent
   ngAfterViewInit() {
-    this.popupComponent.open()
+    //this.popupComponent.open()
     // this.modalService.open(this.popup, {})
 
   }
